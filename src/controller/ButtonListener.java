@@ -10,7 +10,7 @@ public class ButtonListener implements ActionListener {
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == MainWindow.addButton) {
             
-            Main.gameData.add(50000);
+            Main.gameData.add(5000);
             
             int totalEnemies = Main.gameData.getTotalEnemies();
             int killedEnemies = Main.gameData.getKilledEnemies();
